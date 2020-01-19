@@ -2,7 +2,7 @@
 
 How it works
 ------------
-By querying *SWAPI* (https://swapi.co/), a *Star Wars* API, this program can be used to answer that question. Simply choose two characters and the program will return the movies both of them appear.
+Simply choose two characters from the *Star Wars* universe, and the program will query *SWAPI* (https://swapi.co/), a *Star Wars* API, to return the movies in which both of them appear.
 
 ![Star Wars](https://images.unsplash.com/photo-1499334650700-42e4f7ffc63d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
 
@@ -45,5 +45,7 @@ If a character is usually known by their rank, you can also include it in your i
 Credits
 -------
 Program written by **Daniel Palacio**.
+
+*SWAPI* was written by **Paul Hallett** (https://github.com/phalt)
 
 *Star Wars* image by **Andrew Wulf** - *Unsplash.com* (https://unsplash.com/photos/9wxaMpJNOWw)
