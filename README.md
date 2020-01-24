@@ -1,4 +1,4 @@
-# lambda-swapi
+# lambda_swapi
 
 How it works
 ------------
@@ -26,7 +26,7 @@ Executing the program is pretty easy and straightforward, and it can be done usi
 
 04) Once the Notebook is loaded, go to *File* > *Open*. A menu in a new tab will appear.
 
-05) On the right part, look for the button *Upload*. Select the file *lambda-swapi.ypinb* you downloaded on Step 1.
+05) On the right part, look for the button *Upload*. Select the file *lambda-swapi.ipynb* you downloaded on Step 1.
 
 06) Now another *Upload* button will appear, the blue one. Press it to upload the file to the Notebook.
 
@@ -40,7 +40,7 @@ If a character is usually known by their rank, you can also include it in your i
 
 10) Repeat Step 9 for your second character.
 
-11) Wait until the program returns the movies both characters appear.
+11) Wait until the program returns the movies in which both characters appear.
 
 12) Once you finish, please go to *Menu* > *Close and Halt*. Then close all the tabs.
 
