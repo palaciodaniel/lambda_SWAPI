@@ -42,6 +42,8 @@ If a character is usually known by their rank, you can also include it in your i
 
 11) Wait until the program returns the movies in which both characters appear.
 
+12) Do you want to check more characters? Then go to *Kernel* > *Restart and Run All*. On the pop-up window just press the red button, *Restart and Run All Cells*.
+
 12) Once you finish, please go to *Menu* > *Close and Halt*. Then close all the tabs.
 
 Credits
