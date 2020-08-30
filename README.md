@@ -1,8 +1,8 @@
-# lambda_swapi
+# Lambda SWAPI v.2.0 - August 2020
 
 How it works
 ------------
-Simply choose two characters from the *Star Wars* universe, and the program will query *SWAPI* (https://swapi.co/), a *Star Wars* API, to return the movies in which both of them appear.
+Simply choose two characters from the *Star Wars* universe, and the program will query *SWAPI* (https://swapi.dev/), a *Star Wars* API, to return the movies in which both of them appear.
 
 <p align="center"> 
 <img src="https://images.unsplash.com/photo-1499334650700-42e4f7ffc63d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width="500">
