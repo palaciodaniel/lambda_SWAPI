@@ -5,6 +5,6 @@ install:
  - pip install -e .
  - pip install pytest-cov codecov # Packages for Code Coverage
 script:
- - pytest --cov=packages tests # --cov points to the 'src' directory
+ - pytest --cov=packages tests
 after_success:
  - codecov # Report on codecov.io
