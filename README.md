@@ -1,55 +1,37 @@
-# Lambda SWAPI v.2.0 - August 2020
+# Lambda SWAPI v.2.0
 
 How it works
 ------------
-Simply choose two characters from the *Star Wars* universe, and the program will query *SWAPI* (https://swapi.dev/), a *Star Wars* API, to return the movies in which both of them appear.
+Simply choose two characters from the *Star Wars* universe, and the program will query **SWAPI** (https://swapi.dev/), a *Star Wars API*, to return the movies in which both of them appear.
 
 <p align="center"> 
-<img src="https://images.unsplash.com/photo-1499334650700-42e4f7ffc63d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width="500">
+<img src="https://images.unsplash.com/photo-1547700055-b61cacebece9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
 </p>
 
 Important notes
 ---------------
-- The need to input two characters is because I was specifically requested to make the program this way.
+- The original site (*SWAPI.co*) suddently stopped working, therefore this program is actually querying a forked version (**SWAPI.dev**).
+- As of September 2020, **SWAPI** only covers the original and prequel trilogies.
 
-- Consider *SWAPI* may be outdated. It mostly covers the original and prequel trilogies, but it only added a small number of elements from *The Force Awakens*, the only movie from the sequel trilogy to be featured.
+Changelog
+---------
+**1.0 to 2.0**
 
-Running the program
--------------------
-Executing the program is pretty easy and straightforward, and it can be done using a *Jupyter Notebook*. The following might seem a lot of instructions, but this is simply because they were written with a lot of precision, in the event someone who isn't a programmer decides to use the program...
+The code has been rewritten from scratch.
 
-01) From this repository, download the file *lambda-swapi.ypinb* to your hard drive. Remember the folder where you put it.
-
-02) Right click on the following URL: https://jupyter.org/try and then select *"Open in a New Tab"*. 
-
-03) Choose the option *"Try Classic Notebook"*.
-
-04) Once the Notebook is loaded, go to *File* > *Open*. A menu in a new tab will appear.
-
-05) On the right part, look for the button *Upload*. Select the file *lambda-swapi.ipynb* you downloaded on Step 1.
-
-06) Now another *Upload* button will appear, the blue one. Press it to upload the file to the Notebook.
-
-07) Once it's uploaded, look for it and click it. It will open on a new tab.
-
-08) Go to *Cell* > *Run All*. 
-
-09) Write your desired character's name and surname, in this order (i.e. "Luke Skywalker" or "Leia Organa"). 
-
-If a character is usually known by their rank, you can also include it in your input (i.e.: "Princess Leia", "Emperor Palpatine", "Count Dooku", "General Grievous").
-
-10) Repeat Step 9 for your second character.
-
-11) Wait until the program returns the movies in which both characters appear.
-
-12) Do you want to check more characters? Then go to *Kernel* > *Restart and Run All*. On the pop-up window just press the red button, *Restart and Run All Cells*.
-
-12) Once you finish, please go to *Menu* > *Close and Halt*. Then close all the tabs.
+- **Improved search:** The program no longer downloads the whole characters list and then loops over it. Now it "captures" dinamically the names and once it gets both characters' names it automatically stops the searching.
+- **Use of fuzzywuzzy library:** With the use of this library, now it automatically detects if there are matches with the API, even if there are typing mistakes on user's input. And it even allows for considerable variations; for instance, while the character on the database is called "Jabba Desilijic Tiure", user still can write "Jabba the Hutt" and it will be detected as well.
+- **More roburst functions:** Now they are able to detect several anormal situations and stop the program accordingly (i.e.: list with invalid URLs).
+- **Proper Unit Testing:** The Unit Tests now were properly implemented, and also a lot more were added, making an approximate total of 111.
+- **Easier to use:** You only need to load the Jupyter Notebook file, write your two desired characters and simply wait for the program to return some results.
+- **Preliminary Static Type Checking on Functions:** More information about this functionality can be read [here](https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b).
 
 Credits
 -------
-Program written by **Daniel Palacio**.
+Program written from scratch by **Daniel Palacio**.
 
-*SWAPI* was written by **Paul Hallett** (https://github.com/phalt)
+*SWAPI* was written by **Paul Hallett** (https://github.com/phalt) and currently maintained by **Juriy Bura** (https://github.com/Juriy/swapi).
 
-*Star Wars* image by **Andrew Wulf** - *Unsplash.com* (https://unsplash.com/photos/9wxaMpJNOWw)
+*Star Wars* image by **Agnieszka Kowalczyk** - *Unsplash.com* (https://unsplash.com/photos/c0VRNWVEjOA)
+
+
