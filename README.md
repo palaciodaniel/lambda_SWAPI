@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/palaciodaniel/lambda_swapi_v2.0.svg?branch=master)](https://travis-ci.com/palaciodaniel/lambda_swapi_v2.0)
+
 # Lambda SWAPI v.2.0
 
 How it works
