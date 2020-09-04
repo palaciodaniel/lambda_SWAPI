@@ -1,0 +1,10 @@
+language: python
+python:
+ - "3.7.4"
+install:
+ - pip install -e .
+ - pip install pytest-cov codecov # Packages for Code Coverage
+script:
+ - pytest --cov=packages tests # --cov points to the 'src' directory
+after_success:
+ - codecov # Report on codecov.io
