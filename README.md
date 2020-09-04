@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/palaciodaniel/lambda_swapi_v2.0.svg?branch=master)](https://travis-ci.com/palaciodaniel/lambda_swapi_v2.0)
+[![codecov](https://codecov.io/gh/palaciodaniel/lambda_swapi_v2.0/branch/master/graph/badge.svg)](https://codecov.io/gh/palaciodaniel/lambda_swapi_v2.0)
 
 # Lambda SWAPI v.2.0
 
