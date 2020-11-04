@@ -24,7 +24,7 @@ The code has been rewritten from scratch.
 
 - **Improved search:** The program no longer downloads the whole characters list and then loops over it. Now it "captures" dinamically the names and once it gets both characters' names it automatically stops the searching.
 - **Use of fuzzywuzzy library:** With the use of this library, now it automatically detects if there are matches with the API, even if there are typing mistakes on user's input. And it even allows for considerable variations; for instance, while the character on the database is called "Jabba Desilijic Tiure", user still can write "Jabba the Hutt" and it will be detected as well.
-- **More roburst functions:** Now they are able to detect several anormal situations and stop the program accordingly (i.e.: list with invalid URLs).
+- **More robust functions:** Now they are able to detect several anormal situations and stop the program accordingly (i.e.: list with invalid URLs).
 - **Proper Unit Testing:** The Unit Tests now were properly implemented, and also a lot more were added, making an approximate total of 111.
 - **Easier to use:** You only need to load the Jupyter Notebook file, write your two desired characters and simply wait for the program to return some results.
 - **Preliminary Static Type Checking on Functions:** More information about this functionality can be read [here](https://medium.com/@ageitgey/learn-how-to-use-static-type-checking-in-python-3-6-in-10-minutes-12c86d72677b).
