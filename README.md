@@ -1,11 +1,14 @@
 [![Build Status](https://travis-ci.com/palaciodaniel/lambda_swapi_v2.0.svg?branch=master)](https://travis-ci.com/palaciodaniel/lambda_swapi_v2.0)
 [![codecov](https://codecov.io/gh/palaciodaniel/lambda_swapi_v2.0/branch/master/graph/badge.svg)](https://codecov.io/gh/palaciodaniel/lambda_swapi_v2.0)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/palaciodaniel/lambda_swapi_v2.0/master?filepath=lambda_swapi_v2.0.ipynb)
 
 # Lambda SWAPI v.2.0
 
-How it works
+Instructions
 ------------
 Simply choose two characters from the *Star Wars* universe, and the program will query **SWAPI** (https://swapi.dev/), a *Star Wars API*, to return the movies in which both of them appear.
+
+If you have never executed a Jupyter Notebook before, just press the **Launch Binder** icon above, and wait until the program loads (it can take a while!). Once it is ready, go to **Cell** and choose **Run All**. If you want to try another combination, select the cell marked as [2] and press **Shift + Enter** (or click the **Run** button just below the Cell tab).
 
 <p align="center"> 
 <img src="https://images.unsplash.com/photo-1547700055-b61cacebece9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
