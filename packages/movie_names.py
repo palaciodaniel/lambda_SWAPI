@@ -8,7 +8,7 @@ def get_movie_from_url(link_set: List) -> List:
 	returns the sorted movie names accordingly.
 	"""
 
-	correct_urls = ["http://swapi.dev/api/films/1/", "http://swapi.dev/api/films/2/", "http://swapi.dev/api/films/3/", "http://swapi.dev/api/films/4/", "http://swapi.dev/api/films/5/", "http://swapi.dev/api/films/6/"]
+	correct_urls = ["https://swapi.dev/api/films/1/", "https://swapi.dev/api/films/2/", "https://swapi.dev/api/films/3/", "https://swapi.dev/api/films/4/", "https://swapi.dev/api/films/5/", "https://swapi.dev/api/films/6/"]
 
 	# Checking for incorrect elements on list:
 
